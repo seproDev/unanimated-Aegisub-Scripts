@@ -3,14 +3,13 @@
 script_name="ShiftCut"
 script_description="Time Machine. finish sentences before they started. Travels back in time to"
 script_author="unanimated"
-script_version="3.1"
+script_version="3.1.1"
 script_namespace="ua.ShiftCut"
 
 re=require'aegisub.re'
 
 local haveDepCtrl,DependencyControl,depRec=pcall(require,"l0.DependencyControl")
 if haveDepCtrl then
-	script_version="3.1.0"
 	depRec=DependencyControl{feed="https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json"}
 end
 

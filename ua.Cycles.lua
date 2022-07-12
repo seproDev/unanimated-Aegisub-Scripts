@@ -3,12 +3,11 @@
 script_name="Cycles"
 script_description="Cycles blur, border, shadow, alpha, alignment, font spacing"
 script_author="unanimated"
-script_version="2.0"
+script_version="2.0.1"
 script_namespace="ua.Cycles"
 
 local haveDepCtrl,DependencyControl,depRec=pcall(require,"l0.DependencyControl")
 if haveDepCtrl then
-	script_version="2.0.0"
 	depRec=DependencyControl{feed="https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json"}
 end
 

@@ -3,12 +3,11 @@
 script_name="Line Breaker"
 script_description="Breaks lines"
 script_author="unanimated"
-script_version="2.4"
+script_version="2.4.1"
 script_namespace="ua.LineBreaker"
 
 local haveDepCtrl,DependencyControl,depRec=pcall(require,"l0.DependencyControl")
 if haveDepCtrl then
-	script_version="2.4.0"
 	depRec=DependencyControl{feed="https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json"}
 end
 

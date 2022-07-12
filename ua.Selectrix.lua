@@ -3,12 +3,11 @@
 script_name="Selectricks"
 script_description="Selectricks and Sortricks"
 script_author="unanimated"
-script_version="3.4"
+script_version="3.4.1"
 script_namespace="ua.Selectrix"
 
 local haveDepCtrl,DependencyControl,depRec=pcall(require,"l0.DependencyControl")
 if haveDepCtrl then
-	script_version="3.4.0"
 	depRec=DependencyControl{feed="https://raw.githubusercontent.com/TypesettingTools/unanimated-Aegisub-Scripts/master/DependencyControl.json"}
 end
 
