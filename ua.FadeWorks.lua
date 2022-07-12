@@ -2,7 +2,7 @@ script_name="FadeWorkS"
 script_description="Makes pictograph overlays fade in and out of existence"
 script_author="unanimated"
 script_version="5.0"
-script_namespace="ua.Fadeworks"
+script_namespace="ua.FadeWorks"
 
 local haveDepCtrl,DependencyControl,depRec=pcall(require,"l0.DependencyControl")
 if haveDepCtrl then
