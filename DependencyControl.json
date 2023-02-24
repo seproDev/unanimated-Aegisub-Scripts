@@ -397,14 +397,14 @@
       "description": "Works with Fades",
       "channels": {
         "master": {
-          "version": "5.0.1",
-          "released": "2022-07-12",
+          "version": "5.0.2",
+          "released": "2023-02-24",
           "default": true,
           "files": [
             {
               "name": ".lua",
               "url": "@{fileBaseUrl}@{fileName}",
-              "sha1": "b8703f84c6411c7e8cc268e4882504e2f87e958b"
+              "sha1": "7ac44d6c10d4cb916e8fa8ace3d967ae506cec2b"
             }
           ]
         }
@@ -414,7 +414,8 @@
         "5.0.1": [
           "Move to TypesettingTools repository",
           "Change script_namespace to ua.FadeWorks"
-        ]
+        ],
+        "5.0.2": ["Fix off-by-one error for \\ko fades"]
       }
     },
     
